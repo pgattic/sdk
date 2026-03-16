@@ -3,7 +3,7 @@ title: 'Changelog'
 weight: 6
 ---
 
-### Version DEV (2026-XX-XX)
+### Version 1.19.0 (2026-03-16)
 
 - libnds:
 
@@ -61,6 +61,8 @@ weight: 6
   - Add an option to ignore unresolved symbols in dsltool. @trustytrojan
   - Add support to the CMake build system for DSL files. Function
     `blocksds_create_dsl` has been added. @trustytrojan
+  - Fix all remaining compiler warnings in ndstool.
+  - Update notes about the default ARM7 core in the documentation.
 
 ### Version 1.18.1 (2026-03-07)
 
