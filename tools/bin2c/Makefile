@@ -53,7 +53,7 @@ all: bin2c
 
 bin2c: bin2c.c
 	@echo "  HOSTCC  $<"
-	$(V)$(HOSTCC) $(DEFINES) -Wall -Wextra -std=gnu11 -Wformat-truncation=0 -O3 -o $@ $<
+	$(V)$(HOSTCC) $(DEFINES) -Wall -Wextra -Wformat-truncation=0 -O3 -o $@ $<
 
 clean:
 	@echo "  CLEAN  "

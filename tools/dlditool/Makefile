@@ -52,7 +52,8 @@ endif
 all: dlditool
 
 dlditool: dlditool.c
-	$(V)$(HOSTCC) $(DEFINES) -Wall -Wextra -std=gnu11 -O3 -o $@ $<
+	@echo "  HOSTCC  $<"
+	$(V)$(HOSTCC) $(DEFINES) -Wall -Wextra -O3 -o $@ $<
 
 clean:
 	rm -rf dlditool
